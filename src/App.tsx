@@ -1,15 +1,13 @@
 
-import About from './components/about/about'
-import AudienceTargeting from './components/AudienceTargeting/AudienceTargeting'
-import Card from './components/card/card'
-import ComponyInfo from './components/CompanyInfo/componyinfo'
-import Componylogo from './components/componyLogo/componylogo'
-import EffectiveCommunication from './components/EffectiveCommunication/EffectiveCommunication'
-import Footer from './components/footer/footer'
-import Header from './components/header/header'
-import Hero from './components/hero/hero'
-import SliderComponent from './components/slide/slide'
+import About from './components/section'
+import Card from './components/box'
+import ComponyInfo from './components/contbox'
+import Footer from './components/Footer/footer'
+import Hero from './components/Home/hom'
 import './index.css'
+import Contenerbox from './components/boxcontener'
+import Footerlogo from './components/Footer/footer.logo'
+import Header from './components/navbar/navbar'
 
 
 function App() {
@@ -18,18 +16,12 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Componylogo />
       <About />
-      <AudienceTargeting />
-      <SliderComponent />
+      <Contenerbox/>
       <ComponyInfo />
-      <EffectiveCommunication />
       <Card />
-      <div className="py-20">
-        <Componylogo />
-
-      </div>
-      <Footer />
+      <Footerlogo/>
+      <Footer/>
     </>
   )
 }
