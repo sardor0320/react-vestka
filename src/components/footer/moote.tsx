@@ -3,7 +3,7 @@ import img1 from '../../assets/Group 24.png'
 import img2 from '../../assets/Group 25.png'
 import img3 from '../../assets/Group 26.png'
 
-function Footerlogo() {
+function Moote() {
   return (
     <div className=' w-[1300px] m-auto p-[10px] pt-20 '>
         <div className=" flex flex-col gap-9">
@@ -18,4 +18,4 @@ function Footerlogo() {
   )
 }
 
-export default Footerlogo;
+export default Moote;

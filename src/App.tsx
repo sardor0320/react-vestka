@@ -6,8 +6,8 @@ import Footer from './components/Footer/footer'
 import Hero from './components/Home/hom'
 import './index.css'
 import Contenerbox from './components/boxcontener'
-import Footerlogo from './components/Footer/footer.logo'
 import Header from './components/navbar/navbar'
+import Moote from './components/Footer/moote'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Contenerbox/>
       <ComponyInfo />
       <Card />
-      <Footerlogo/>
+      <Moote/>
       <Footer/>
     </>
   )

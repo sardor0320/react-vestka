@@ -2,7 +2,7 @@ import { Button } from 'flowbite-react';
 import heroRight from '../../assets/hero-right-img.png';
 import lin from '../../assets/Line 2.png';
 import './hom.css';
-import Footerlogo from '../Footer/footer.logo';
+import Footerlogo from '../Footer/moote';
 
 function Hom() {
   return (
